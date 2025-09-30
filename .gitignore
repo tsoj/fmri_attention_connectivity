@@ -1,0 +1,8 @@
+__pycache__
+/results
+/results_*
+/subject_groups_test*.csv
+/subject_groups_continue*.csv
+/TODO.md
+/some_script_behaviour.sh
+HCP_YA_subjects_*.csv

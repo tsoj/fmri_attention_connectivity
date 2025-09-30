@@ -1,0 +1,76 @@
+{
+  "atlas_file_path": "atlas/Schaefer2018_100Parcels_17Networks_order.dlabel.nii",
+  "hcp_data_path": "/mnt/second_disk/HCP_Young_Adult_2025/symlinks_test_retest_combination_S1200",
+  "subject_ids_csv_path": "csv/subject_groups.csv",
+  "root_save_dir": "results/",
+  "test_size": 0.1,
+  "random_seed": 8767128,
+  "num_cortical_vertices": 64984,
+  "train_configs": [
+    {
+      "output_window": 1,
+      "input_window": 5,
+      "hidden_dim": 128,
+      "num_input_layers": 2,
+      "num_prediction_layers": 2,
+      "bottleneck_dim": 8,
+      "attention_dropout_rate": 0.9,
+      "attention_reg_weight": 0.0,
+      "num_epochs": 1,
+      "batch_size": 256,
+      "learning_rate": 0.001
+    },
+    {
+      "output_window": 1,
+      "input_window": 5,
+      "hidden_dim": 64,
+      "num_input_layers": 3,
+      "num_prediction_layers": 3,
+      "bottleneck_dim": 8,
+      "attention_dropout_rate": 0.9,
+      "attention_reg_weight": 0.0,
+      "num_epochs": 1,
+      "batch_size": 256,
+      "learning_rate": 0.001
+    },
+    {
+      "output_window": 1,
+      "input_window": 5,
+      "hidden_dim": 192,
+      "num_input_layers": 3,
+      "num_prediction_layers": 3,
+      "bottleneck_dim": 8,
+      "attention_dropout_rate": 0.9,
+      "attention_reg_weight": 0.0,
+      "num_epochs": 1,
+      "batch_size": 256,
+      "learning_rate": 0.001
+    },
+    {
+      "output_window": 1,
+      "input_window": 5,
+      "hidden_dim": 128,
+      "num_input_layers": 3,
+      "num_prediction_layers": 3,
+      "bottleneck_dim": 16,
+      "attention_dropout_rate": 0.9,
+      "attention_reg_weight": 0.0,
+      "num_epochs": 1,
+      "batch_size": 256,
+      "learning_rate": 0.001
+    },
+    {
+      "output_window": 1,
+      "input_window": 5,
+      "hidden_dim": 128,
+      "num_input_layers": 3,
+      "num_prediction_layers": 3,
+      "bottleneck_dim": 8,
+      "attention_dropout_rate": 0.7,
+      "attention_reg_weight": 0.0,
+      "num_epochs": 1,
+      "batch_size": 256,
+      "learning_rate": 0.001
+    }
+  ]
+}
