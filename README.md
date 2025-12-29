@@ -1,3 +1,13 @@
+# Computing directed connectivity by predicting fMRI signals using attention based artificial neural networks
+
+In this work, I explore a method to extract directed connectivity information from fMRI resting state signals.
+As an alternative to, for example, correlation and Granger causality based approaches, this new method is based
+on an artificial neural network (ANN) model using a combination of dense fully connected layers and attention mechanisms.
+The ANN is trained to predict future fMRI signals, and the attention matrix during inference is used to describe connectivity between regions.
+The resulting attention connectivity matrices compare competitively to Granger causality and Pearson and partial correlation on fingerprintand on predicting individual behavior.
+
+[Paper](fmri_attention_connectivity.pdf)
+
 # Setup
 
 ```bash
